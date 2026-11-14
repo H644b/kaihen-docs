@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-14T07:31:17.570Z",
+  "title": "Design System: kaiHEN Docs",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "White Article",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(25% 0.00000 0.00)",
+          "oklch(35% 0.00000 0.00)",
+          "oklch(45% 0.00000 0.00)",
+          "oklch(55% 0.00000 0.00)",
+          "oklch(65% 0.00000 0.00)",
+          "oklch(80% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "rail": {
+        "role": "neutral",
+        "displayName": "Cool Chapter Gray",
+        "tonalRamp": [
+          "oklch(15% 0.00213 197.12)",
+          "oklch(25% 0.00213 197.12)",
+          "oklch(35% 0.00213 197.12)",
+          "oklch(45% 0.00213 197.12)",
+          "oklch(55% 0.00213 197.12)",
+          "oklch(65% 0.00213 197.12)",
+          "oklch(80% 0.00213 197.12)",
+          "oklch(95% 0.00213 197.12)"
+        ]
+      },
+      "subtle": {
+        "role": "neutral",
+        "displayName": "Soft State Gray",
+        "tonalRamp": [
+          "oklch(15% 0.00253 228.78)",
+          "oklch(25% 0.00253 228.78)",
+          "oklch(35% 0.00253 228.78)",
+          "oklch(45% 0.00253 228.78)",
+          "oklch(55% 0.00253 228.78)",
+          "oklch(65% 0.00253 228.78)",
+          "oklch(80% 0.00253 228.78)",
+          "oklch(95% 0.00253 228.78)"
+        ]
+      },
+      "code": {
+        "role": "neutral",
+        "displayName": "Code Gray",
+        "tonalRamp": [
+          "oklch(15% 0.00342 247.86)",
+          "oklch(25% 0.00342 247.86)",
+          "oklch(35% 0.00342 247.86)",
+          "oklch(45% 0.00342 247.86)",
+          "oklch(55% 0.00342 247.86)",
+          "oklch(65% 0.00342 247.86)",
+          "oklch(80% 0.00342 247.86)",
+          "oklch(95% 0.00342 247.86)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "tonalRamp": [
+          "oklch(15% 0.01790 241.65)",
+          "oklch(25% 0.01790 241.65)",
+          "oklch(35% 0.01790 241.65)",
+          "oklch(45% 0.01790 241.65)",
+          "oklch(55% 0.01790 241.65)",
+          "oklch(65% 0.01790 241.65)",
+          "oklch(80% 0.01790 241.65)",
+          "oklch(95% 0.01790 241.65)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "tonalRamp": [
+          "oklch(15% 0.02063 240.34)",
+          "oklch(25% 0.02063 240.34)",
+          "oklch(35% 0.02063 240.34)",
+          "oklch(45% 0.02063 240.34)",
+          "oklch(55% 0.02063 240.34)",
+          "oklch(65% 0.02063 240.34)",
+          "oklch(80% 0.02063 240.34)",
+          "oklch(95% 0.02063 240.34)"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Quiet Slate",
+        "tonalRamp": [
+          "oklch(15% 0.01929 242.66)",
+          "oklch(25% 0.01929 242.66)",
+          "oklch(35% 0.01929 242.66)",
+          "oklch(45% 0.01929 242.66)",
+          "oklch(55% 0.01929 242.66)",
+          "oklch(65% 0.01929 242.66)",
+          "oklch(80% 0.01929 242.66)",
+          "oklch(95% 0.01929 242.66)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Fine Rule",
+        "tonalRamp": [
+          "oklch(15% 0.00605 223.46)",
+          "oklch(25% 0.00605 223.46)",
+          "oklch(35% 0.00605 223.46)",
+          "oklch(45% 0.00605 223.46)",
+          "oklch(55% 0.00605 223.46)",
+          "oklch(65% 0.00605 223.46)",
+          "oklch(80% 0.00605 223.46)",
+          "oklch(95% 0.00605 223.46)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Forest Green",
+        "tonalRamp": [
+          "oklch(15% 0.07657 164.95)",
+          "oklch(25% 0.07657 164.95)",
+          "oklch(35% 0.07657 164.95)",
+          "oklch(45% 0.07657 164.95)",
+          "oklch(55% 0.07657 164.95)",
+          "oklch(65% 0.07657 164.95)",
+          "oklch(80% 0.07657 164.95)",
+          "oklch(95% 0.07657 164.95)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Deep Forest",
+        "tonalRamp": [
+          "oklch(15% 0.06587 164.59)",
+          "oklch(25% 0.06587 164.59)",
+          "oklch(35% 0.06587 164.59)",
+          "oklch(45% 0.06587 164.59)",
+          "oklch(55% 0.06587 164.59)",
+          "oklch(65% 0.06587 164.59)",
+          "oklch(80% 0.06587 164.59)",
+          "oklch(95% 0.06587 164.59)"
+        ]
+      },
+      "selected": {
+        "role": "primary",
+        "displayName": "Pale Green Location",
+        "tonalRamp": [
+          "oklch(15% 0.01162 162.04)",
+          "oklch(25% 0.01162 162.04)",
+          "oklch(35% 0.01162 162.04)",
+          "oklch(45% 0.01162 162.04)",
+          "oklch(55% 0.01162 162.04)",
+          "oklch(65% 0.01162 162.04)",
+          "oklch(80% 0.01162 162.04)",
+          "oklch(95% 0.01162 162.04)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Green",
+        "tonalRamp": [
+          "oklch(15% 0.09351 165.51)",
+          "oklch(25% 0.09351 165.51)",
+          "oklch(35% 0.09351 165.51)",
+          "oklch(45% 0.09351 165.51)",
+          "oklch(55% 0.09351 165.51)",
+          "oklch(65% 0.09351 165.51)",
+          "oklch(80% 0.09351 165.51)",
+          "oklch(95% 0.09351 165.51)"
+        ]
+      },
+      "selection": {
+        "role": "primary",
+        "displayName": "Selection Green",
+        "tonalRamp": [
+          "oklch(15% 0.03170 160.16)",
+          "oklch(25% 0.03170 160.16)",
+          "oklch(35% 0.03170 160.16)",
+          "oklch(45% 0.03170 160.16)",
+          "oklch(55% 0.03170 160.16)",
+          "oklch(65% 0.03170 160.16)",
+          "oklch(80% 0.03170 160.16)",
+          "oklch(95% 0.03170 160.16)"
+        ]
+      },
+      "danger": {
+        "role": "error",
+        "displayName": "Error Red",
+        "tonalRamp": [
+          "oklch(15% 0.15342 25.18)",
+          "oklch(25% 0.15342 25.18)",
+          "oklch(35% 0.15342 25.18)",
+          "oklch(45% 0.15342 25.18)",
+          "oklch(55% 0.15342 25.18)",
+          "oklch(65% 0.15342 25.18)",
+          "oklch(80% 0.15342 25.18)",
+          "oklch(95% 0.15342 25.18)"
+        ]
+      },
+      "dark-canvas": {
+        "role": "neutral",
+        "displayName": "Dark White Article",
+        "tonalRamp": [
+          "oklch(15% 0.00955 234.23)",
+          "oklch(25% 0.00955 234.23)",
+          "oklch(35% 0.00955 234.23)",
+          "oklch(45% 0.00955 234.23)",
+          "oklch(55% 0.00955 234.23)",
+          "oklch(65% 0.00955 234.23)",
+          "oklch(80% 0.00955 234.23)",
+          "oklch(95% 0.00955 234.23)"
+        ]
+      },
+      "dark-rail": {
+        "role": "neutral",
+        "displayName": "Dark Cool Chapter Gray",
+        "tonalRamp": [
+          "oklch(15% 0.01173 237.21)",
+          "oklch(25% 0.01173 237.21)",
+          "oklch(35% 0.01173 237.21)",
+          "oklch(45% 0.01173 237.21)",
+          "oklch(55% 0.01173 237.21)",
+          "oklch(65% 0.01173 237.21)",
+          "oklch(80% 0.01173 237.21)",
+          "oklch(95% 0.01173 237.21)"
+        ]
+      },
+      "dark-subtle": {
+        "role": "neutral",
+        "displayName": "Dark Soft State Gray",
+        "tonalRamp": [
+          "oklch(15% 0.01465 235.52)",
+          "oklch(25% 0.01465 235.52)",
+          "oklch(35% 0.01465 235.52)",
+          "oklch(45% 0.01465 235.52)",
+          "oklch(55% 0.01465 235.52)",
+          "oklch(65% 0.01465 235.52)",
+          "oklch(80% 0.01465 235.52)",
+          "oklch(95% 0.01465 235.52)"
+        ]
+      },
+      "dark-code": {
+        "role": "neutral",
+        "displayName": "Dark Code Gray",
+        "tonalRamp": [
+          "oklch(15% 0.01392 239.22)",
+          "oklch(25% 0.01392 239.22)",
+          "oklch(35% 0.01392 239.22)",
+          "oklch(45% 0.01392 239.22)",
+          "oklch(55% 0.01392 239.22)",
+          "oklch(65% 0.01392 239.22)",
+          "oklch(80% 0.01392 239.22)",
+          "oklch(95% 0.01392 239.22)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Charcoal",
+        "tonalRamp": [
+          "oklch(15% 0.00675 233.65)",
+          "oklch(25% 0.00675 233.65)",
+          "oklch(35% 0.00675 233.65)",
+          "oklch(45% 0.00675 233.65)",
+          "oklch(55% 0.00675 233.65)",
+          "oklch(65% 0.00675 233.65)",
+          "oklch(80% 0.00675 233.65)",
+          "oklch(95% 0.00675 233.65)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Slate",
+        "tonalRamp": [
+          "oklch(15% 0.01573 235.44)",
+          "oklch(25% 0.01573 235.44)",
+          "oklch(35% 0.01573 235.44)",
+          "oklch(45% 0.01573 235.44)",
+          "oklch(55% 0.01573 235.44)",
+          "oklch(65% 0.01573 235.44)",
+          "oklch(80% 0.01573 235.44)",
+          "oklch(95% 0.01573 235.44)"
+        ]
+      },
+      "dark-faint": {
+        "role": "neutral",
+        "displayName": "Dark Quiet Slate",
+        "tonalRamp": [
+          "oklch(15% 0.02311 235.13)",
+          "oklch(25% 0.02311 235.13)",
+          "oklch(35% 0.02311 235.13)",
+          "oklch(45% 0.02311 235.13)",
+          "oklch(55% 0.02311 235.13)",
+          "oklch(65% 0.02311 235.13)",
+          "oklch(80% 0.02311 235.13)",
+          "oklch(95% 0.02311 235.13)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Fine Rule",
+        "tonalRamp": [
+          "oklch(15% 0.01887 235.97)",
+          "oklch(25% 0.01887 235.97)",
+          "oklch(35% 0.01887 235.97)",
+          "oklch(45% 0.01887 235.97)",
+          "oklch(55% 0.01887 235.97)",
+          "oklch(65% 0.01887 235.97)",
+          "oklch(80% 0.01887 235.97)",
+          "oklch(95% 0.01887 235.97)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Dark Forest Green",
+        "tonalRamp": [
+          "oklch(15% 0.06682 160.96)",
+          "oklch(25% 0.06682 160.96)",
+          "oklch(35% 0.06682 160.96)",
+          "oklch(45% 0.06682 160.96)",
+          "oklch(55% 0.06682 160.96)",
+          "oklch(65% 0.06682 160.96)",
+          "oklch(80% 0.06682 160.96)",
+          "oklch(95% 0.06682 160.96)"
+        ]
+      },
+      "dark-accent-hover": {
+        "role": "primary",
+        "displayName": "Dark Deep Forest",
+        "tonalRamp": [
+          "oklch(15% 0.04807 160.41)",
+          "oklch(25% 0.04807 160.41)",
+          "oklch(35% 0.04807 160.41)",
+          "oklch(45% 0.04807 160.41)",
+          "oklch(55% 0.04807 160.41)",
+          "oklch(65% 0.04807 160.41)",
+          "oklch(80% 0.04807 160.41)",
+          "oklch(95% 0.04807 160.41)"
+        ]
+      },
+      "dark-selected": {
+        "role": "primary",
+        "displayName": "Dark Pale Green Location",
+        "tonalRamp": [
+          "oklch(15% 0.03400 165.41)",
+          "oklch(25% 0.03400 165.41)",
+          "oklch(35% 0.03400 165.41)",
+          "oklch(45% 0.03400 165.41)",
+          "oklch(55% 0.03400 165.41)",
+          "oklch(65% 0.03400 165.41)",
+          "oklch(80% 0.03400 165.41)",
+          "oklch(95% 0.03400 165.41)"
+        ]
+      },
+      "dark-focus": {
+        "role": "primary",
+        "displayName": "Dark Focus Green",
+        "tonalRamp": [
+          "oklch(15% 0.06682 160.96)",
+          "oklch(25% 0.06682 160.96)",
+          "oklch(35% 0.06682 160.96)",
+          "oklch(45% 0.06682 160.96)",
+          "oklch(55% 0.06682 160.96)",
+          "oklch(65% 0.06682 160.96)",
+          "oklch(80% 0.06682 160.96)",
+          "oklch(95% 0.06682 160.96)"
+        ]
+      },
+      "dark-selection": {
+        "role": "primary",
+        "displayName": "Dark Selection Green",
+        "tonalRamp": [
+          "oklch(15% 0.05404 161.32)",
+          "oklch(25% 0.05404 161.32)",
+          "oklch(35% 0.05404 161.32)",
+          "oklch(45% 0.05404 161.32)",
+          "oklch(55% 0.05404 161.32)",
+          "oklch(65% 0.05404 161.32)",
+          "oklch(80% 0.05404 161.32)",
+          "oklch(95% 0.05404 161.32)"
+        ]
+      },
+      "dark-danger": {
+        "role": "error",
+        "displayName": "Dark Error Red",
+        "tonalRamp": [
+          "oklch(15% 0.08653 19.03)",
+          "oklch(25% 0.08653 19.03)",
+          "oklch(35% 0.08653 19.03)",
+          "oklch(45% 0.08653 19.03)",
+          "oklch(55% 0.08653 19.03)",
+          "oklch(65% 0.08653 19.03)",
+          "oklch(80% 0.08653 19.03)",
+          "oklch(95% 0.08653 19.03)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Home headline",
+        "purpose": "The home introduction; responsive sizes are recorded in DESIGN.md."
+      },
+      "title": {
+        "displayName": "Guide title",
+        "purpose": "The primary title of each guide."
+      },
+      "section": {
+        "displayName": "Article section",
+        "purpose": "Second-level headings within long-form guides."
+      },
+      "subsection": {
+        "displayName": "Article subsection",
+        "purpose": "Third-level headings within long-form guides."
+      },
+      "lead": {
+        "displayName": "Introduction",
+        "purpose": "The supporting introduction on the documentation home page."
+      },
+      "body": {
+        "displayName": "Article reading text",
+        "purpose": "Long-form prose and lists, with a 75ch maximum where space permits."
+      },
+      "shell": {
+        "displayName": "Page base",
+        "purpose": "Inherited reading defaults for the document shell."
+      },
+      "control": {
+        "displayName": "Action label",
+        "purpose": "Primary and secondary action labels."
+      },
+      "navigation": {
+        "displayName": "Chapter link",
+        "purpose": "Compact links and the desktop search trigger."
+      },
+      "label": {
+        "displayName": "Navigation heading",
+        "purpose": "Chapter groups and contents headings."
+      },
+      "metadata": {
+        "displayName": "Research and copy details",
+        "purpose": "Research details, footer text, and copy controls."
+      },
+      "code": {
+        "displayName": "Code example",
+        "purpose": "Locally scrolling fenced technical examples."
+      }
+    },
+    "shadows": [
+      {
+        "name": "search-overlay",
+        "value": "0 20px 70px #101a2230",
+        "purpose": "The sole ambient elevation, used by the modal search dialog."
+      },
+      {
+        "name": "search-field-focus",
+        "value": "inset 0 -2px 0 var(--focus)",
+        "purpose": "A focus edge for the modal search row; not surface elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "search-open-duration",
+        "value": "160ms",
+        "purpose": "Duration of the search dialog opening animation."
+      },
+      {
+        "name": "search-open-easing",
+        "value": "ease-out",
+        "purpose": "Easing of the search dialog opening animation."
+      },
+      {
+        "name": "search-open-translation",
+        "value": "translate: 0 -5px → 0 0",
+        "purpose": "Search modal moves 5px into its resting position; article content has no entrance animation."
+      },
+      {
+        "name": "copy-confirmation-hold",
+        "value": "1800ms",
+        "purpose": "Timer before restoring the Copy label; the label changes immediately without a CSS transition."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto !important",
+        "purpose": "Applied to all elements and pseudo-elements when reduced motion is requested."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-shell-alignment-min",
+        "value": "1601px"
+      },
+      {
+        "name": "compact-desktop-max",
+        "value": "1280px"
+      },
+      {
+        "name": "inline-contents-max",
+        "value": "1150px"
+      },
+      {
+        "name": "compact-header-max",
+        "value": "960px"
+      },
+      {
+        "name": "mobile-navigation-max",
+        "value": "800px"
+      },
+      {
+        "name": "single-column-directory-max",
+        "value": "500px"
+      },
+      {
+        "name": "narrow-mobile-max",
+        "value": "350px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Fixed forest-and-white action in both themes; used for Start building.",
+      "html": "<a class=\"ds-button-primary\" href=\"/docs/quickstart/\">Start building <svg width=\"17\" height=\"17\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 10h12m-5-5 5 5-5 5\"/></svg></a>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:40px;padding:9px 15px;border-radius:var(--radius,6px);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:13px;font-weight:600;line-height:1.5;text-decoration:none;cursor:pointer;background:#216149;color:#fff;border:1px solid transparent;}.ds-button-primary:hover{background:#174c38;color:#fff;}.ds-button-primary:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:4px;}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Theme-aware outlined action; used for Test connection.",
+      "html": "<button type=\"button\" class=\"ds-button-secondary\">Test connection</button>",
+      "css": ".ds-button-secondary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:40px;padding:9px 15px;border-radius:var(--radius,6px);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:13px;font-weight:600;line-height:1.5;text-decoration:none;cursor:pointer;background:var(--canvas,#ffffff);color:var(--ink,#242d34);border:1px solid var(--line,#e1e6e8);}.ds-button-secondary:hover{background:var(--subtle,#f3f5f6);}.ds-button-secondary:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:4px;}.ds-button-secondary:disabled{opacity:.65;cursor:wait;}"
+    },
+    {
+      "name": "Copy control",
+      "kind": "button",
+      "refersTo": "button-copy",
+      "description": "Compact control for code, endpoints, and page Markdown.",
+      "html": "<button type=\"button\" class=\"ds-copy\" aria-label=\"Copy code\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10H7V7Zm5 0V3H3v9h4\"/></svg><span>Copy</span></button>",
+      "css": ".ds-copy{display:inline-flex;align-items:center;gap:6px;background:transparent;border:0;padding:4px;color:var(--muted,#58646d);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:11px;line-height:1.7;border-radius:4px;cursor:pointer;}.ds-copy:hover{color:var(--accent,#216149);background:var(--subtle,#f3f5f6);}.ds-copy:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:4px;}.ds-copy:disabled{opacity:.65;cursor:wait;}"
+    },
+    {
+      "name": "Search trigger",
+      "kind": "button",
+      "refersTo": "search-trigger",
+      "description": "Desktop search control with a compact keyboard cue.",
+      "html": "<button class=\"ds-search-trigger\" type=\"button\" aria-haspopup=\"dialog\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8.5 14a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Zm4-1.5 4.5 4.5\"/></svg><span>Search documentation</span><kbd>⌘ K</kbd></button>",
+      "css": ".ds-search-trigger{display:flex;align-items:center;gap:10px;width:100%;min-height:36px;padding:5px 10px;background:var(--rail,#f6f8f8);border:1px solid var(--line,#e1e6e8);border-radius:var(--radius,6px);color:var(--muted,#58646d);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:13px;line-height:1.7;text-align:left;cursor:pointer;}.ds-search-trigger:hover{border-color:var(--faint,#69747d);}.ds-search-trigger:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:4px;}.ds-search-trigger kbd{margin-left:auto;background:var(--canvas,#ffffff);font-family:\"SFMono-Regular\", Consolas, \"Liberation Mono\", monospace;font-size:11px;border:1px solid var(--line,#e1e6e8);border-radius:4px;padding:2px 5px;line-height:1.5;color:var(--muted,#58646d);}@media(max-width:800px){.ds-search-trigger{width:36px;height:36px;justify-content:center;background:transparent;border:0;padding:0;}.ds-search-trigger>span,.ds-search-trigger kbd{display:none;}}"
+    },
+    {
+      "name": "Search field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Borderless modal search field with an inset focus edge and close control.",
+      "html": "<div class=\"ds-search-top\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8.5 14a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Zm4-1.5 4.5 4.5\"/></svg><input class=\"ds-search-input\" type=\"search\" aria-label=\"Search documentation\" placeholder=\"Search a topic, API, or command…\" autocomplete=\"off\" spellcheck=\"false\"/><button class=\"ds-search-close\" type=\"button\" aria-label=\"Close search\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m5 5 10 10M15 5 5 15\"/></svg></button></div>",
+      "css": ".ds-search-top{display:flex;align-items:center;gap:14px;padding:14px 16px;border-bottom:1px solid var(--line,#e1e6e8);background:var(--canvas,#ffffff);color:var(--muted,#58646d);}.ds-search-input{flex:1;min-width:0;height:35px;border:0;background:transparent;color:var(--ink,#242d34);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:15px;line-height:1.7;outline:none;padding:0;caret-color:var(--accent,#216149);}.ds-search-input:focus-visible{outline:none;}.ds-search-input::placeholder{color:var(--muted,#58646d);opacity:1;}.ds-search-top:focus-within{box-shadow:inset 0 -2px 0 var(--focus,#287c5e);}.ds-search-close{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:5px;width:34px;height:34px;padding:0;background:transparent;color:var(--muted,#58646d);cursor:pointer;}.ds-search-close:hover{color:var(--ink,#242d34);background:var(--subtle,#f3f5f6);}.ds-search-close:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:4px;}"
+    },
+    {
+      "name": "Chapter navigation",
+      "kind": "nav",
+      "refersTo": "chapter-link",
+      "description": "Compact chapter links with a green current-page state.",
+      "html": "<nav class=\"ds-chapters\" aria-label=\"Documentation chapters\"><h2>Start here</h2><ul><li><a class=\"ds-chapter-selected\" href=\"/docs/quickstart/\" aria-current=\"page\">Quickstart</a></li><li><a href=\"/docs/overview/\">Platform overview</a></li><li><a href=\"/docs/toolchain/\">Set up the toolchain</a></li></ul></nav>",
+      "css": ".ds-chapters{background:var(--rail,#f6f8f8);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;}.ds-chapters h2{font-size:12px;line-height:1.5;font-weight:600;letter-spacing:0;color:var(--muted,#58646d);padding:0 10px;margin:0 0 7px;}.ds-chapters ul{list-style:none;margin:0;padding:0;}.ds-chapters li{margin:1px 0;}.ds-chapters a{display:block;color:var(--muted,#58646d);font-size:13px;line-height:1.5;padding:7px 10px;border-radius:5px;text-decoration:none;}.ds-chapters a:hover{color:var(--ink,#242d34);background:var(--subtle,#f3f5f6);}.ds-chapters a:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:4px;}.ds-chapters a.ds-chapter-selected{background:var(--selected,#e8f1ec);color:var(--accent,#216149);font-weight:600;}"
+    },
+    {
+      "name": "Code panel",
+      "kind": "custom",
+      "refersTo": "code-panel",
+      "description": "Flat framed example with language label, copy action, and local horizontal scrolling.",
+      "html": "<div class=\"ds-code-panel\"><div class=\"ds-code-header\"><span>sh</span><button class=\"ds-code-copy\" type=\"button\" aria-label=\"Copy code\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10H7V7Zm5 0V3H3v9h4\"/></svg><span>Copy</span></button></div><pre><code>git clone https://github.com/ouncebrew/ounce-devkit.git\ncd ounce-devkit\nsh install.sh 20261114\nmake -C examples/vulkan-clear</code></pre></div>",
+      "css": ".ds-code-panel{border:1px solid var(--line,#e1e6e8);border-radius:var(--radius,6px);background:var(--code,#f6f8fa);overflow:hidden;}.ds-code-header{display:flex;justify-content:space-between;align-items:center;padding:7px 13px;min-height:37px;border-bottom:1px solid var(--line,#e1e6e8);color:var(--muted,#58646d);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:11px;line-height:1.5;}.ds-code-copy{display:inline-flex;align-items:center;gap:6px;background:transparent;border:0;padding:4px;color:var(--muted,#58646d);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:11px;line-height:1.7;border-radius:4px;cursor:pointer;}.ds-code-copy:hover{color:var(--accent,#216149);background:var(--subtle,#f3f5f6);}.ds-code-copy:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:4px;}.ds-code-panel pre{margin:0;padding:16px 18px;overflow-x:auto;scrollbar-width:thin;font-family:\"SFMono-Regular\", Consolas, \"Liberation Mono\", monospace;font-size:12px;line-height:1.9;background:var(--code,#f6f8fa);color:var(--ink,#242d34);tab-size:4;font-variant-ligatures:none;}.ds-code-panel code{font-family:inherit;font-size:inherit;white-space:pre;}@media(max-width:500px){.ds-code-panel pre{font-size:11px;padding:14px;}.ds-code-header{padding:6px 11px;}}"
+    },
+    {
+      "name": "Guide directory",
+      "kind": "custom",
+      "refersTo": "guide-directory-row",
+      "description": "Divided guide links with a title, directional SVG, and supporting description.",
+      "html": "<div class=\"ds-guide-directory\"><a href=\"/docs/first-application/\"><strong>Your first application <svg width=\"17\" height=\"17\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 10h12m-5-5 5 5-5 5\"/></svg></strong><span>Native entry, HEN status, input, and a clean exit.</span></a><a href=\"/docs/graphics/\"><strong>Graphics and UI <svg width=\"17\" height=\"17\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 10h12m-5-5 5 5-5 5\"/></svg></strong><span>Vulkan, OpenGL ES, presentation, and resolution.</span></a></div>",
+      "css": ".ds-guide-directory{display:grid;grid-template-columns:1fr 1fr;gap:0 32px;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;}.ds-guide-directory>a{display:block;text-decoration:none;padding:18px 0;border-bottom:1px solid var(--line,#e1e6e8);}.ds-guide-directory>a strong{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:14px;line-height:1.5;font-weight:600;color:var(--ink,#242d34);}.ds-guide-directory>a span{display:block;color:var(--muted,#58646d);font-size:13px;line-height:1.65;margin-top:6px;}.ds-guide-directory>a:hover strong{color:var(--accent,#216149);}.ds-guide-directory>a:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:4px;}@media(max-width:500px){.ds-guide-directory{grid-template-columns:1fr;}.ds-guide-directory>a{padding:17px 0;}}"
+    },
+    {
+      "name": "Section search result",
+      "kind": "custom",
+      "refersTo": "search-result",
+      "description": "Source guide, section heading, and excerpt with query highlighting.",
+      "html": "<a class=\"ds-search-result\" href=\"/docs/jit/#sparse-publication\"><small>JIT and language runtimes</small><strong><mark>Sparse publication</mark></strong><p>kaihenJitPublishRanges accepts byte ranges within staging.</p></a>",
+      "css": ".ds-search-result{display:block;padding:12px;border-radius:6px;text-decoration:none;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;line-height:1.7;}.ds-search-result:hover,.ds-search-result:focus{background:var(--selected,#e8f1ec);outline-offset:-2px;}.ds-search-result:focus-visible{outline:2px solid var(--focus,#287c5e);outline-offset:-2px;}.ds-search-result strong{display:block;font-size:14px;color:var(--ink,#242d34);font-weight:600;}.ds-search-result small{color:var(--accent,#216149);font-size:11px;}.ds-search-result p{font-size:12px;line-height:1.7;color:var(--muted,#58646d);margin:5px 0 0;}.ds-search-result mark{color:var(--ink,#242d34);background:var(--selection,#cde5d7);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Release Engineering Manual",
+    "overview": "This system gives a developer a quiet place to read beside an editor. White article space, a cool-gray chapter rail, charcoal text, and restrained forest-green actions make the document hierarchy visible without adding a decorative layer. The same platform reading stack carries headings and prose; commands and identifiers use monospace.\n\nThe implemented world uses fine rules, compact controls, divided lists, and locally scrollable technical material. Its form comes from the recorded, explicitly assumed code-first direction; there is no approved visual comp. This document captures the finished source, rather than upgrading that assumption into user approval.",
+    "keyCharacteristics": [
+      "Clear chapter and section navigation around a continuous article.",
+      "Flat reading surfaces with one elevated search overlay.",
+      "Source references, technical identifiers, and copyable commands close to their context.",
+      "Compact controls with visible keyboard focus and responsive reading space."
+    ],
+    "rules": [
+      {
+        "name": "The Link and Location Rule",
+        "body": "Use green for actionable destinations, current location, keyboard focus, and text matches; keep reading copy and structural rules neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Stack Rule",
+        "body": "Keep headings and prose in the same platform reading stack; reserve monospace for code, identifiers, and keyboard cues.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Page Rule",
+        "body": "Keep document surfaces flat and separated by fine rules or tonal grounds; reserve the ambient shadow for the modal search layer.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use the shared reading stack, restrained green action family, fine rules, and existing semantic theme roles.",
+      "**Do** keep technical overflow inside code, table, and diagram frames while allowing the article to wrap.",
+      "**Do** keep keyboard focus visible and move it to a same-page search destination after closing the dialog.",
+      "**Do** preserve source access in home and guide footers at narrow widths.",
+      "**Do** keep source versions and evidence labels close to the technical material they qualify."
+    ],
+    "donts": [
+      "**Don't** add decorative AI motifs or synthetic product claims.",
+      "**Don't** animate article content into view or add decorative entrance sequences.",
+      "**Don't** replace the functional inline SVG marks with text glyph icons."
+    ]
+  }
+}

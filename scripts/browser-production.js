@@ -1,0 +1,35 @@
+async(page)=>{
+ const origin='https://kaihen.timsfun.com';
+ const errors=[];
+ const warnings=[];
+ page.on('pageerror',error=>errors.push(error.message));
+ page.on('console',message=>{if(message.type()==='error')errors.push(message.text());if(message.type()==='warning')warnings.push(message.text());});
+ await page.setViewportSize({width:1440,height:1000});
+ const response=await page.goto(origin);
+ if(response.status()!==200)throw new Error('Production homepage did not load');
+ if(await page.getByRole('link',{name:'Source code on GitHub',exact:true}).getAttribute('href')!=='https://github.com/H644b/kaihen-docs')throw new Error('Wrong live source link');
+ await page.screenshot({path:'.impeccable/review/production-desktop.png'});
+ await page.goto(origin+'/docs/jit/');
+ await page.getByRole('button',{name:'Search documentation',exact:true}).click();
+ const input=page.getByRole('searchbox',{name:'Search documentation'});
+ await input.fill('sparse publication');
+ await page.locator('.search-result').first().waitFor();
+ await input.press('Enter');
+ await page.waitForFunction(()=>!document.querySelector('#search-dialog').open&&location.hash==='#sparse-publication'&&document.activeElement?.id==='sparse-publication');
+ await page.goto(origin+'/docs/runtime/');
+ await page.waitForFunction(()=>document.querySelectorAll('.mermaid svg .node').length===9);
+ await page.goto(origin+'/docs/mcp/');
+ await page.getByRole('button',{name:'Test connection',exact:true}).click();
+ const result=page.locator('#mcp-check-result');
+ await result.filter({hasText:'4 read-only tools available'}).waitFor();
+ const mcp=await result.textContent();
+ await page.screenshot({path:'.impeccable/review/production-mcp.png'});
+ await page.setViewportSize({width:390,height:844});
+ await page.goto(origin);
+ const dimensions=await page.evaluate(()=>({viewport:innerWidth,width:document.documentElement.scrollWidth}));
+ if(dimensions.width!==390)throw new Error('Production mobile page overflows');
+ await page.screenshot({path:'.impeccable/review/production-mobile.png'});
+ if(await page.getByRole('link',{name:'Source on GitHub',exact:true}).getAttribute('href')!=='https://github.com/H644b/kaihen-docs')throw new Error('Wrong mobile source link');
+ if(errors.length||warnings.length)throw new Error(JSON.stringify({errors,warnings}));
+ return{origin,desktop:true,mobile:dimensions,sourceLinks:true,samePageSearch:true,diagramNodes:9,mcp,errors,warnings};
+}
