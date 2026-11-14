@@ -1,0 +1,9 @@
+---
+import {docs,groups} from '../lib/content';
+interface Props {current?:string;}
+const {current=''}=Astro.props;
+---
+<nav class="chapter-nav" aria-label="Documentation chapters">
+  <a class:list={['nav-home',{selected:current==='home'}]} href="/" aria-current={current==='home'?'page':undefined}>Documentation</a>
+  {groups.map(group=><section class="nav-group"><h2>{group}</h2><ul>{docs.filter(doc=>doc.group===group).map(doc=><li><a href={`/docs/${doc.slug}/`} class:list={{selected:current===doc.slug}} aria-current={current===doc.slug?'page':undefined}>{doc.title}</a></li>)}</ul></section>)}
+</nav>

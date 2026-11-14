@@ -1,0 +1,27 @@
+# kaiHEN Docs
+
+Native Switch 2 homebrew development with kaiHEN, libounce, OunceVK and ounce-devkit.
+
+Research snapshot: November 13, 2026. Source claims are not universal hardware verification.
+
+MCP endpoint: https://kaihen.timsfun.com/mcp
+Full reference: https://kaihen.timsfun.com/llms-full.txt
+
+## Guides
+
+- [Platform overview](https://kaihen.timsfun.com/docs/overview/): Scope, compatibility and the development stack. Raw Markdown: https://kaihen.timsfun.com/docs/overview.md
+- [Set up the toolchain](https://kaihen.timsfun.com/docs/toolchain/): Install choices, build rules, linking and reproducible builds. Raw Markdown: https://kaihen.timsfun.com/docs/toolchain.md
+- [Build your first app](https://kaihen.timsfun.com/docs/first-application/): A native diagnostic, controller input and a clean return to hbmenu. Raw Markdown: https://kaihen.timsfun.com/docs/first-application.md
+- [Runtime and ABI](https://kaihen.timsfun.com/docs/runtime/): Processes, service ownership, loader behavior and protocol boundaries. Raw Markdown: https://kaihen.timsfun.com/docs/runtime.md
+- [Graphics and UI](https://kaihen.timsfun.com/docs/graphics/): Vulkan, EGL, OpenGL ES, resolution and presentation. Raw Markdown: https://kaihen.timsfun.com/docs/graphics.md
+- [Controllers and pointers](https://kaihen.timsfun.com/docs/input/): PadState, touch and Joy-Con mouse input. Raw Markdown: https://kaihen.timsfun.com/docs/input.md
+- [Files, network and media](https://kaihen.timsfun.com/docs/io-and-media/): Storage, sockets, audio and hardware video decoding. Raw Markdown: https://kaihen.timsfun.com/docs/io-and-media.md
+- [JIT and language runtimes](https://kaihen.timsfun.com/docs/jit/): Code publication, emulation, memory and cache synchronization. Raw Markdown: https://kaihen.timsfun.com/docs/jit.md
+- [Plugins and IPC](https://kaihen.timsfun.com/docs/plugins/): Resident NSOs, service discovery and command design. Raw Markdown: https://kaihen.timsfun.com/docs/plugins.md
+- [Port an existing app](https://kaihen.timsfun.com/docs/porting/): Dependencies, framework choices and concrete porting examples. Raw Markdown: https://kaihen.timsfun.com/docs/porting.md
+- [Debugging and testing](https://kaihen.timsfun.com/docs/debugging/): Failure diagnosis, profiling and meaningful verification. Raw Markdown: https://kaihen.timsfun.com/docs/debugging.md
+- [Package and release](https://kaihen.timsfun.com/docs/distribution/): Metadata, artifacts, dependency licenses and release gates. Raw Markdown: https://kaihen.timsfun.com/docs/distribution.md
+- [Sources and evidence](https://kaihen.timsfun.com/docs/sources/): Pinned source catalog, checked artifacts and open questions. Raw Markdown: https://kaihen.timsfun.com/docs/sources.md
+- [Quickstart](https://kaihen.timsfun.com/docs/quickstart/): The shortest path from a clean build to your first native NRO. Raw Markdown: https://kaihen.timsfun.com/docs/quickstart.md
+- [kaiHEN API reference](https://kaihen.timsfun.com/docs/api-reference/): Function signatures, ownership rules, protocol values and failure handling. Raw Markdown: https://kaihen.timsfun.com/docs/api-reference.md
+- [MCP integration](https://kaihen.timsfun.com/docs/mcp/): Connect a client to the read-only documentation endpoint. Raw Markdown: https://kaihen.timsfun.com/docs/mcp.md

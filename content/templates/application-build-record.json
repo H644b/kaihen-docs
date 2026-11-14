@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "application": {"name": "", "version": "", "source_commit": "", "dirty_tree": null},
+  "build": {
+    "host_os": "", "host_architecture": "", "compiler_version": "",
+    "devkit_release": "", "container_image_digest": "", "command": "",
+    "library_commits": {"libounce": "", "ouncevk": "", "libkaihen": ""},
+    "package_inventory_file": "", "build_log_file": ""
+  },
+  "artifacts": [{"filename": "", "bytes": null, "sha256": "", "symbols_file": "", "link_map_file": ""}],
+  "validation": {"host_tests": "not_run", "cross_build": "not_run", "console_test": "not_run", "hardware_record_file": ""}
+}

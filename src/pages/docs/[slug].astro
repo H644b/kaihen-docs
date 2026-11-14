@@ -1,0 +1,19 @@
+---
+import DocsLayout from '../../layouts/DocsLayout.astro';
+import Icon from '../../components/Icon.astro';
+import {docs,repositoryUrl} from '../../lib/content';
+import {renderMarkdown} from '../../lib/markdown';
+export function getStaticPaths(){return docs.map((doc,index)=>({params:{slug:doc.slug},props:{doc,index}}));}
+const {doc,index}=Astro.props;
+const html=await renderMarkdown(doc.markdown);
+const previous=docs[index-1],next=docs[index+1];
+---
+<DocsLayout title={doc.title} description={doc.description} current={doc.slug} headings={doc.headings}>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Documentation</a><Icon name="chevron" size={14}/><span>{doc.group}</span></nav>
+  <header class="article-header"><h1>{doc.title}</h1><p class="article-description">{doc.description}</p><div class="article-meta"><span>{doc.readingMinutes} min read</span><span>Research: Nov 13, 2026</span><button class="copy-page" data-markdown={`/docs/${doc.slug}.md`} type="button"><Icon name="copy" size={14}/><span>Copy page</span></button></div></header>
+  <details class="inline-toc"><summary>On this page</summary><nav aria-label="In-page navigation"><ul>{doc.headings.filter(h=>h.depth===2).map(h=><li><a href={`#${h.slug}`}>{h.text.replace(/`/g,'')}</a></li>)}</ul></nav></details>
+  {doc.slug==='mcp'&&<div class="mcp-check"><div><strong>Documentation MCP server</strong><p>Check negotiation and tool discovery from this browser.</p></div><button class="button-secondary" id="check-mcp" type="button">Test connection</button><p id="mcp-check-result" role="status" aria-live="polite"></p></div>}
+  <article class="prose" set:html={html}/>
+  <div class="guide-pagination">{previous?<a class="previous-guide" href={`/docs/${previous.slug}/`}><span>Previous</span><strong>{previous.title}</strong></a>:<span/>}{next?<a class="next-guide" href={`/docs/${next.slug}/`}><span>Next</span><strong>{next.title}<Icon name="arrow" size={17}/></strong></a>:<a class="next-guide" href="/docs/quickstart/"><span>Return to development</span><strong>Quickstart<Icon name="arrow" size={17}/></strong></a>}</div>
+  <footer class="article-footer"><span>Published November 14, 2026</span><a href={repositoryUrl}>Source on GitHub</a><a href={`/docs/${doc.slug}.md`}>View Markdown</a></footer>
+</DocsLayout>

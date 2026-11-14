@@ -1,0 +1,896 @@
+[
+  {
+    "id": "KROOT",
+    "label": "kaiHEN project overview",
+    "repository": "kaihen",
+    "path": "README.md",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/README.md",
+    "sha256": "87509f4c2aa7f16cd3c69330532ce3eec62405115c986bc1423125b8e360bff5"
+  },
+  {
+    "id": "KHEN",
+    "label": "HEN runtime and launch policy",
+    "repository": "kaihen",
+    "path": "hen/README.md",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/hen/README.md",
+    "sha256": "c697726924a85e36da92339493fbadd6f0616931404bad922bb9df6acef976b6"
+  },
+  {
+    "id": "KRO",
+    "label": "RO implementation and test scope",
+    "repository": "kaihen",
+    "path": "ro/README.md",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/ro/README.md",
+    "sha256": "30a2962c88393f14c893e5366e2dcd467d5e49e7490fe9ac1b2a81cbfd8feaca"
+  },
+  {
+    "id": "KAPI",
+    "label": "kaiHEN client API and handle ownership",
+    "repository": "kaihen",
+    "path": "libkaihen/include/kaihen.h",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/include/kaihen.h",
+    "sha256": "c61285be76c4902b8e6b25cdd24314da364a5a1e21d8a5718738334ede6506f4"
+  },
+  {
+    "id": "KPROTO",
+    "label": "HEN protocol constants and layouts",
+    "repository": "kaihen",
+    "path": "libkaihen/include/kaihen/protocol.h",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/include/kaihen/protocol.h",
+    "sha256": "fa6065c828cf62d8eb23f5f022e5b1836ff37cc47b5a78ea01964f278c57f005"
+  },
+  {
+    "id": "KPLUGIN",
+    "label": "Native plugin public interface",
+    "repository": "kaihen",
+    "path": "libkaihen/include/kaihen/plugin.h",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/include/kaihen/plugin.h",
+    "sha256": "b933c1e3d73ba0f9cf1b229541ed5d872d382b3690a12faa32b7d00c5041294a"
+  },
+  {
+    "id": "KPLUGDOC",
+    "label": "Native plugin development guide",
+    "repository": "kaihen",
+    "path": "libkaihen/PLUGINS.md",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/PLUGINS.md",
+    "sha256": "e6eb6177ead3f64c8305fc4cf77ea3d6a6778490af49abe143d076208ef7568b"
+  },
+  {
+    "id": "KPLUGRUN",
+    "label": "Plugin runtime handoff and teardown",
+    "repository": "kaihen",
+    "path": "libkaihen/source/plugin_runtime.cpp",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/source/plugin_runtime.cpp",
+    "sha256": "882d1de66070f472f6e5466e4539a9e6105d21077504f87a842720f7abc45df1"
+  },
+  {
+    "id": "KPLUGSERV",
+    "label": "Scalar plugin service implementation",
+    "repository": "kaihen",
+    "path": "libkaihen/source/plugin_server.cpp",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/source/plugin_server.cpp",
+    "sha256": "e777e3c3908bb13ab8d8b916f7c6903588311e947250f73caf34340d0d454312"
+  },
+  {
+    "id": "KCMIF",
+    "label": "Server-side CMIF helpers",
+    "repository": "kaihen",
+    "path": "libkaihen/source/cmif_server.hpp",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/source/cmif_server.hpp",
+    "sha256": "95f60d16c248fe6ada1dcd630d11d2e29b14a78cc8d9582f50bd16f22eca8b3a"
+  },
+  {
+    "id": "KJITDOC",
+    "label": "JIT backend development guide",
+    "repository": "kaihen",
+    "path": "libkaihen/JIT.md",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/JIT.md",
+    "sha256": "5bb7d576878d3e4e78e6c12cbda3249e49e8aec4f68cd1adecb251167f4f8c54"
+  },
+  {
+    "id": "KJITSRC",
+    "label": "JIT provider and sparse publication",
+    "repository": "kaihen",
+    "path": "libkaihen/source/jit.c",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/source/jit.c",
+    "sha256": "a10b1fe5d5ea4aef6468d371f68d5adac29c71d612b119f9da248db2c74278eb"
+  },
+  {
+    "id": "KMAKE",
+    "label": "JIT provider and plugin library build",
+    "repository": "kaihen",
+    "path": "libkaihen/Makefile",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/Makefile",
+    "sha256": "e0eea520aaccd11e57f7f839437481d7e363cfa13732589a0f586f2482c18144"
+  },
+  {
+    "id": "KBOOT",
+    "label": "Bootstrap launch and plugin readiness",
+    "repository": "kaihen",
+    "path": "bootstrap/source/main.cpp",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/bootstrap/source/main.cpp",
+    "sha256": "0971cd9ce9d6976156645025e71ea1cdab81459e7bb88c357e9012ce84bbaf80"
+  },
+  {
+    "id": "KSM",
+    "label": "Per-client service-manager proxy",
+    "repository": "kaihen",
+    "path": "hen/source/sm_proxy.cpp",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/hen/source/sm_proxy.cpp",
+    "sha256": "01337c649ac707559631ddd3566c28a97a1e2cd63f651aeea3445a5c86eca5ff"
+  },
+  {
+    "id": "KHENSERVER",
+    "label": "HEN command and plugin discovery server",
+    "repository": "kaihen",
+    "path": "hen/source/server.cpp",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/hen/source/server.cpp",
+    "sha256": "ade9a7b89ff42c1f9c82fa367fc0046b200bb50b1f2a6e1e2a797841b19a72fa"
+  },
+  {
+    "id": "KROSESSIONH",
+    "label": "RO client and JIT bookkeeping limits",
+    "repository": "kaihen",
+    "path": "ro/source/session.h",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/ro/source/session.h",
+    "sha256": "9727f87d20976e54ba78a93436c61370472f58076ebac504156975a15a625203"
+  },
+  {
+    "id": "KROSESSION",
+    "label": "RO command validation and JIT publication",
+    "repository": "kaihen",
+    "path": "ro/source/session.cpp",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/ro/source/session.cpp",
+    "sha256": "576f9d02d439d6c85cea8561cce8a78fd2df6f151c7616ac69a225ce06417a10"
+  },
+  {
+    "id": "KROMAP",
+    "label": "RO mapping and cleanup implementation",
+    "repository": "kaihen",
+    "path": "ro/source/mapping.cpp",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/ro/source/mapping.cpp",
+    "sha256": "7162e13045e6216e412aff505d01b15592300022924ce87b3432fd3f4f83d942"
+  },
+  {
+    "id": "KHENTEST",
+    "label": "HEN host test commands",
+    "repository": "kaihen",
+    "path": "hen/test.sh",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/hen/test.sh",
+    "sha256": "91e21b9129748f3ccabe331f36c2ebfae932f2fcb80c5d04305631fbaf33ab22"
+  },
+  {
+    "id": "KROTEST",
+    "label": "RO host test commands",
+    "repository": "kaihen",
+    "path": "ro/test.sh",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/ro/test.sh",
+    "sha256": "7ec74b379fb05bb33473a25840fb6e04101f99b7047b7d5593da4bb1d4e1299b"
+  },
+  {
+    "id": "KLICENSE",
+    "label": "kaiHEN core license",
+    "repository": "kaihen",
+    "path": "LICENSE",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/LICENSE",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "id": "KLIBLICENSE",
+    "label": "libkaihen license",
+    "repository": "kaihen",
+    "path": "libkaihen/LICENSE",
+    "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+    "url": "https://github.com/ouncebrew/kaihen/blob/e897f991524590833b82fbe8d63a3c6775fb8101/libkaihen/LICENSE",
+    "sha256": "dd76999221b671901d57147c9b917237f63a131af5822496845f9878a3fd6b6e"
+  },
+  {
+    "id": "DROOT",
+    "label": "Development kit installation and usage",
+    "repository": "ounce-devkit",
+    "path": "README.md",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/README.md",
+    "sha256": "e86d0c5c66b66d8521522b8efcebedd9ad2b718f1b15a427c1c657778f94c3ff"
+  },
+  {
+    "id": "DINSTALL",
+    "label": "Devkit installer and checksum selection",
+    "repository": "ounce-devkit",
+    "path": "install.sh",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/install.sh",
+    "sha256": "99a03cfb81a7679f3e5e6d71d6cadf4deafc099a1059f2122c75607dbbf15eba"
+  },
+  {
+    "id": "DSOURCES",
+    "label": "Pinned devkit source revisions",
+    "repository": "ounce-devkit",
+    "path": "build/sources",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/build/sources",
+    "sha256": "9f0ab11980a2661faf4ddb0dc0356e76df5d7eeac9ab3674da96c6a788961dee"
+  },
+  {
+    "id": "DDOCKER",
+    "label": "Development container baseline",
+    "repository": "ounce-devkit",
+    "path": "Dockerfile",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/Dockerfile",
+    "sha256": "de87c132d4cdad85876350afcc9ea47916bf6f8dd422c4a446ba06b2eec670a3"
+  },
+  {
+    "id": "DCMAKE",
+    "label": "Switch 2 CMake toolchain",
+    "repository": "ounce-devkit",
+    "path": "toolchain/cmake/Switch2.cmake",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/toolchain/cmake/Switch2.cmake",
+    "sha256": "ef9dff311e0d751b1505c117e67dc465301f878d7abedc826470ccede234fd33"
+  },
+  {
+    "id": "DPLATFORM",
+    "label": "CMake platform flags and overlay",
+    "repository": "ounce-devkit",
+    "path": "toolchain/cmake/Platform/NintendoSwitch.cmake",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/toolchain/cmake/Platform/NintendoSwitch.cmake",
+    "sha256": "bdb609140d924a75e0d4919ef905f4384a0acd7c745388620e309395b78c222f"
+  },
+  {
+    "id": "DVARS",
+    "label": "Cross-build environment variables",
+    "repository": "ounce-devkit",
+    "path": "toolchain/switch2vars.sh",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/toolchain/switch2vars.sh",
+    "sha256": "71769e705a6df4fa4c3050d705006a8b64b3c9fdd4a49871827a36ea0181b4fb"
+  },
+  {
+    "id": "DVK",
+    "label": "Vulkan clear reference application",
+    "repository": "ounce-devkit",
+    "path": "examples/vulkan-clear/source/main.c",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/examples/vulkan-clear/source/main.c",
+    "sha256": "02f134277882c8a138565115d69c73184bdc9ee999c319c8770e867abc9574fd"
+  },
+  {
+    "id": "DVKMAKE",
+    "label": "Vulkan example build and metadata",
+    "repository": "ounce-devkit",
+    "path": "examples/vulkan-clear/Makefile",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/examples/vulkan-clear/Makefile",
+    "sha256": "78e301f768f750b24668a32ada20ec00da135db2bc6a925a7b5d0f0697295514"
+  },
+  {
+    "id": "DGLES",
+    "label": "GLES triangle reference application",
+    "repository": "ounce-devkit",
+    "path": "examples/gles-triangle/source/main.c",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/examples/gles-triangle/source/main.c",
+    "sha256": "52bfd3fcc6607b5e85b2a58207da6122fef8359a8719b6ab6d1507bdca515086"
+  },
+  {
+    "id": "DGLESMAKE",
+    "label": "GLES example NRO build pipeline",
+    "repository": "ounce-devkit",
+    "path": "examples/gles-triangle/Makefile",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/examples/gles-triangle/Makefile",
+    "sha256": "714d99b00efceaf54ee6c14f9f19e0d7d998f05bd218d9d2cf02ba6fe7483eb9"
+  },
+  {
+    "id": "DPLUGIN",
+    "label": "Resident echo plugin example",
+    "repository": "ounce-devkit",
+    "path": "examples/plugin-echo/source/main.c",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/examples/plugin-echo/source/main.c",
+    "sha256": "24e594cca362045242bb5324f00c0be76ec60ad35f5036820260be1f9eba8dcd"
+  },
+  {
+    "id": "DPLUGINMAKE",
+    "label": "Native plugin ELF and NSO build",
+    "repository": "ounce-devkit",
+    "path": "examples/plugin-echo/Makefile",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/examples/plugin-echo/Makefile",
+    "sha256": "2228caf00030e37bc18f6e9f0814cd4d017fe868f928b90676912391d33ad9d8"
+  },
+  {
+    "id": "DPLUGINCLIENT",
+    "label": "Plugin discovery and scalar client example",
+    "repository": "ounce-devkit",
+    "path": "examples/plugin-echo-client/source/main.c",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/examples/plugin-echo-client/source/main.c",
+    "sha256": "3e6a5ad2c74f3f7435e0b2d3ce90d17a2c1f625d3dace40b671d3258936cc5c0"
+  },
+  {
+    "id": "DLICENSE",
+    "label": "Devkit packaging license",
+    "repository": "ounce-devkit",
+    "path": "LICENSE",
+    "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+    "url": "https://github.com/ouncebrew/ounce-devkit/blob/f3478152dc553a104dd991efca4bde0c6e7cfe3e/LICENSE",
+    "sha256": "a2b4d76a335c8cc7762b892df7ce0b5368fe5da91637983deb412c15fa756782"
+  },
+  {
+    "id": "LROOT",
+    "label": "libounce build and library variants",
+    "repository": "libounce",
+    "path": "README.md",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/README.md",
+    "sha256": "3db11008dd41369d7583e7edb4940389e1f0c8a52778a44b913d7db4df47c007"
+  },
+  {
+    "id": "LRULES",
+    "label": "Switch 2 Make rules and library overlay",
+    "repository": "libounce",
+    "path": "nx/switch2_rules",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/switch2_rules",
+    "sha256": "a79202c44839b8fe87cab35a256ecb43d087eafcb50f76138b5ca240f5b00eaf"
+  },
+  {
+    "id": "LCPU",
+    "label": "Shared Switch 2 CPU flags",
+    "repository": "libounce",
+    "path": "nx/switch2_cpu.mk",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/switch2_cpu.mk",
+    "sha256": "08a2c090a8b2e45c923ac50fe55b30466b2c90efb5868f56df7a4009d911d48c"
+  },
+  {
+    "id": "LMAKE",
+    "label": "Runtime and allocator packaging",
+    "repository": "libounce",
+    "path": "nx/Makefile",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/Makefile",
+    "sha256": "5c25fb39078d6b14880516518a4833e680d4458239877fedde5a8993b045a804"
+  },
+  {
+    "id": "LNRO",
+    "label": "NRO platform identity record",
+    "repository": "libounce",
+    "path": "nx/include/switch/nro.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/nro.h",
+    "sha256": "59084ce0d4a6fbedc184e227d7786a9e866c083cfdc558d9d5b054a27a862365"
+  },
+  {
+    "id": "LFS",
+    "label": "FS initialization and proxy identity",
+    "repository": "libounce",
+    "path": "nx/source/services/fs.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/services/fs.c",
+    "sha256": "4d4b11beb3942723d6a5c374723e316edb2932bbd0a377618df7e6d14d310e18"
+  },
+  {
+    "id": "LFSDEV",
+    "label": "Standard filesystem device adapter",
+    "repository": "libounce",
+    "path": "nx/source/runtime/devices/fs_dev.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/runtime/devices/fs_dev.c",
+    "sha256": "321f5f09091a345d15172f8854aabd084d05f4c8ae70af796c308633c77e72ba"
+  },
+  {
+    "id": "LSM",
+    "label": "Service overrides and borrowed SM session",
+    "repository": "libounce",
+    "path": "nx/source/services/sm.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/services/sm.c",
+    "sha256": "9423392a4a274dc88018d1edb473ff3778786966a6ce8767b7922276b4c20911"
+  },
+  {
+    "id": "LINIT",
+    "label": "Application initialization and exit hooks",
+    "repository": "libounce",
+    "path": "nx/source/runtime/init.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/runtime/init.c",
+    "sha256": "1bc912d8ea8827d5cec7dbe431ec2f9496f5bce975ed7bb52987b9673fc33159"
+  },
+  {
+    "id": "LPAD",
+    "label": "Pad state and controller helpers",
+    "repository": "libounce",
+    "path": "nx/include/switch/runtime/pad.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/runtime/pad.h",
+    "sha256": "49186a4305d90872cfc5b23c9a7ead4fe103fc75b9000444b92ae777709ee98c"
+  },
+  {
+    "id": "LPADPOINTER",
+    "label": "PadPointer public declarations",
+    "repository": "libounce",
+    "path": "nx/include/switch/runtime/pad.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/runtime/pad.h",
+    "sha256": "49186a4305d90872cfc5b23c9a7ead4fe103fc75b9000444b92ae777709ee98c"
+  },
+  {
+    "id": "LPADSRC",
+    "label": "Joy-Con pointer aggregation implementation",
+    "repository": "libounce",
+    "path": "nx/source/runtime/pad_pointer.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/runtime/pad_pointer.c",
+    "sha256": "02c304684933908f0457d0e89d61d15aa4ac96a166477597e5e49e5c13df10f1"
+  },
+  {
+    "id": "LHID",
+    "label": "HID touch and conventional input API",
+    "repository": "libounce",
+    "path": "nx/include/switch/services/hid.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/services/hid.h",
+    "sha256": "531c0d257a5cf8d5632d0ca1febfc2025bcf41431dd01ccb4bdc28ed2b644156"
+  },
+  {
+    "id": "LNMOUSE",
+    "label": "Native Nmouse devices and sample memory",
+    "repository": "libounce",
+    "path": "nx/include/switch2/services/nmouse.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch2/services/nmouse.h",
+    "sha256": "84d193ff341825a166f544223cd17be9654817629d4717590103b47886c6c1f5"
+  },
+  {
+    "id": "LFRAME",
+    "label": "Switch 2 CPU framebuffer adaptation",
+    "repository": "libounce",
+    "path": "nx/source/display/framebuffer.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/display/framebuffer.c",
+    "sha256": "c00f21cbf41919a58c33200009b442e6ee7c2514e61a662018a3286f01a6e81e"
+  },
+  {
+    "id": "LWINDOW",
+    "label": "Window size and frame-rate policies",
+    "repository": "libounce",
+    "path": "nx/include/switch/display/native_window.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/display/native_window.h",
+    "sha256": "cba56781268bb057b327186f1870c5c492455421b0f633a4ec8a0be2879d7442"
+  },
+  {
+    "id": "LVI2",
+    "label": "VI2 presentation and display capabilities",
+    "repository": "libounce",
+    "path": "nx/include/switch2/services/vi2.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch2/services/vi2.h",
+    "sha256": "fbb6ae76796b09d6cea224389f50e8a3ff728dfc275ac32945622717133ec0ac"
+  },
+  {
+    "id": "LROMFS",
+    "label": "RomFS mount API",
+    "repository": "libounce",
+    "path": "nx/include/switch/runtime/devices/romfs_dev.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/runtime/devices/romfs_dev.h",
+    "sha256": "192e2d82f29b240d38e7cd0a61e98b6a553d006c9db25d6792fab0323cb515f3"
+  },
+  {
+    "id": "LSOCKET",
+    "label": "Socket runtime initialization",
+    "repository": "libounce",
+    "path": "nx/include/switch/runtime/devices/socket.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/runtime/devices/socket.h",
+    "sha256": "67d99e5ea68924442c25f340f7bb2d5bbf9f7964aaf9a9cbe5eca77730a329db"
+  },
+  {
+    "id": "LNIFM",
+    "label": "Network interface service API",
+    "repository": "libounce",
+    "path": "nx/include/switch/services/nifm.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/services/nifm.h",
+    "sha256": "8b53bd5518359955aec05f8b569c89b015fcc38c85e03c2c31a5e484854fdfe8"
+  },
+  {
+    "id": "LAUDU",
+    "label": "Native audio manager root",
+    "repository": "libounce",
+    "path": "nx/include/switch2/services/audu.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch2/services/audu.h",
+    "sha256": "32c1b14c8d8d90fb027da0682e103b5a853e836826cd6f9b01e1a78c23fada89"
+  },
+  {
+    "id": "LAUDOUT",
+    "label": "AudioOut native service selection",
+    "repository": "libounce",
+    "path": "nx/source/services/audout.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/services/audout.c",
+    "sha256": "e505d8af95140c78652a9a9358c3da695bf5a2425109bbafba8a7466ab724f00"
+  },
+  {
+    "id": "LAUDREN",
+    "label": "AudioRenderer native service selection",
+    "repository": "libounce",
+    "path": "nx/source/services/audren.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/services/audren.c",
+    "sha256": "bd699a49a2243efc580e373e63c7dadce98f8e7af21d23d93fbfc4a1c59970ed"
+  },
+  {
+    "id": "LVIDEO",
+    "label": "High-level hardware video decoder API",
+    "repository": "libounce",
+    "path": "nx/include/switch2/video/decoder.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch2/video/decoder.h",
+    "sha256": "fd49df3c0be31caa8cb30e3ef0cc1ac86b731539f183f1f198efc69ee0fcac3a"
+  },
+  {
+    "id": "LVIDDEC",
+    "label": "Decoder codecs and low-level image API",
+    "repository": "libounce",
+    "path": "nx/include/switch2/services/viddec.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch2/services/viddec.h",
+    "sha256": "fe7c46586941406c4ea1b737e6e1e2e0d35b66c1ceea8744cf9db7b396e8beb4"
+  },
+  {
+    "id": "LVIDEOSRC",
+    "label": "Decoder synchronization and lifetime implementation",
+    "repository": "libounce",
+    "path": "nx/source/switch2/video/decoder.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/switch2/video/decoder.c",
+    "sha256": "6092fa69b0f4682ac7c173428f150a833b1b2a7f8139d80627359c62268552d1"
+  },
+  {
+    "id": "LGSV",
+    "label": "Graphics image and synchronization API",
+    "repository": "libounce",
+    "path": "nx/include/switch2/services/gsv.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch2/services/gsv.h",
+    "sha256": "d60268e7b1e97737130cf776bf82946eaa08bb13e21f0bf8641afb1f3e79cd46"
+  },
+  {
+    "id": "LJIT",
+    "label": "JIT allocation and transition implementation",
+    "repository": "libounce",
+    "path": "nx/source/kernel/jit.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/kernel/jit.c",
+    "sha256": "8fda4242c1ff460830034cda1608bb5cb0b28d43a6c1281bece19472a40d44f0"
+  },
+  {
+    "id": "LHEAP",
+    "label": "Allocator-aware heap measurements",
+    "repository": "libounce",
+    "path": "nx/include/switch2/memory/heap.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch2/memory/heap.h",
+    "sha256": "855311690abb6725c7151b15c5256fed03b879d0e035ec0b82aab5f493ec0d13"
+  },
+  {
+    "id": "LHOS",
+    "label": "Firmware compatibility markers and defaults",
+    "repository": "libounce",
+    "path": "nx/source/runtime/hosversion.c",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/source/runtime/hosversion.c",
+    "sha256": "e5337e900f669cedf1e35e9d4aec5869b687f8b88a34dc8a70c890bc9af782f2"
+  },
+  {
+    "id": "LCOUNTER",
+    "label": "Tick frequency and time conversion",
+    "repository": "libounce",
+    "path": "nx/include/switch/arm/counter.h",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/nx/include/switch/arm/counter.h",
+    "sha256": "cd0064082f51759434d8785c26f36c24f80ccc3d2916cb42aff6c3a542357cf0"
+  },
+  {
+    "id": "LLICENSE",
+    "label": "libounce inherited runtime license",
+    "repository": "libounce",
+    "path": "LICENSE.md",
+    "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+    "url": "https://github.com/ouncebrew/libounce/blob/9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f/LICENSE.md",
+    "sha256": "5b6675f85016009624d29c9222201d3c0fc6a2d5c59253367f27d3e15011cdb2"
+  },
+  {
+    "id": "VROOT",
+    "label": "OunceVK and Mesa overview",
+    "repository": "ouncevk",
+    "path": "README.rst",
+    "commit": "f5afcd27a98d47a35b7091b097ffd7f46b0be3e4",
+    "url": "https://github.com/ouncebrew/ouncevk/blob/f5afcd27a98d47a35b7091b097ffd7f46b0be3e4/README.rst",
+    "sha256": "df1c82c236d04c2db253b05121c4efb56d9da3bfce06107fc2a7d48d9b93bbbc"
+  },
+  {
+    "id": "VSWITCH",
+    "label": "Native graphics interfaces and build guide",
+    "repository": "ouncevk",
+    "path": "switch2/README.md",
+    "commit": "f5afcd27a98d47a35b7091b097ffd7f46b0be3e4",
+    "url": "https://github.com/ouncebrew/ouncevk/blob/f5afcd27a98d47a35b7091b097ffd7f46b0be3e4/switch2/README.md",
+    "sha256": "cca7c02ca1295fdcaa031a41bc63461ed9fdbde14aedc28e9f871389e57a6e4d"
+  },
+  {
+    "id": "VPKG",
+    "label": "Static graphics driver packaging",
+    "repository": "ouncevk",
+    "path": "switch2/build/package-portlib.sh",
+    "commit": "f5afcd27a98d47a35b7091b097ffd7f46b0be3e4",
+    "url": "https://github.com/ouncebrew/ouncevk/blob/f5afcd27a98d47a35b7091b097ffd7f46b0be3e4/switch2/build/package-portlib.sh",
+    "sha256": "26f56770453362a68d01936a9a8b0f63de6bb0a41fce63ea2c3dbf5b69c4735a"
+  },
+  {
+    "id": "VRUST",
+    "label": "Driver Rust target definition",
+    "repository": "ouncevk",
+    "path": "switch2/toolchain/rust/aarch64-switch-horizon.json",
+    "commit": "f5afcd27a98d47a35b7091b097ffd7f46b0be3e4",
+    "url": "https://github.com/ouncebrew/ouncevk/blob/f5afcd27a98d47a35b7091b097ffd7f46b0be3e4/switch2/toolchain/rust/aarch64-switch-horizon.json",
+    "sha256": "be0f306de29ac0fab482151d25e27b5a33d139e78c0bb51e0286d9f13f5a653c"
+  },
+  {
+    "id": "VCOMPLETE",
+    "label": "Native GPU completion waits",
+    "repository": "ouncevk",
+    "path": "src/nouveau/vulkan/nvkmd/nvgpu/nvkmd_nvgpu_native_completion.c",
+    "commit": "f5afcd27a98d47a35b7091b097ffd7f46b0be3e4",
+    "url": "https://github.com/ouncebrew/ouncevk/blob/f5afcd27a98d47a35b7091b097ffd7f46b0be3e4/src/nouveau/vulkan/nvkmd/nvgpu/nvkmd_nvgpu_native_completion.c",
+    "sha256": "e1b7a39983f125eb12695f0aee137ff6efbf59f5641c6e3a65c39e92ba4fe2f3"
+  },
+  {
+    "id": "VPROGRESS",
+    "label": "Native GPU progress ownership",
+    "repository": "ouncevk",
+    "path": "src/nouveau/vulkan/nvkmd/nvgpu/nvkmd_nvgpu_native_progress.c",
+    "commit": "f5afcd27a98d47a35b7091b097ffd7f46b0be3e4",
+    "url": "https://github.com/ouncebrew/ouncevk/blob/f5afcd27a98d47a35b7091b097ffd7f46b0be3e4/src/nouveau/vulkan/nvkmd/nvgpu/nvkmd_nvgpu_native_progress.c",
+    "sha256": "ec8134a5e054d329df2ff980b5fa70daa0f2d323011c1a25e948eeb07ed40e68"
+  },
+  {
+    "id": "VLICENSE",
+    "label": "Mesa licensing reference",
+    "repository": "ouncevk",
+    "path": "docs/license.rst",
+    "commit": "f5afcd27a98d47a35b7091b097ffd7f46b0be3e4",
+    "url": "https://github.com/ouncebrew/ouncevk/blob/f5afcd27a98d47a35b7091b097ffd7f46b0be3e4/docs/license.rst",
+    "sha256": "0d1a0472ecc81830e75c20d59b0ea02841e3db21255e0ebad97ab682c54d6615"
+  },
+  {
+    "id": "HLREADME",
+    "label": "Native NRO loader usage",
+    "repository": "ounce-hbloader",
+    "path": "README.md",
+    "commit": "95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71",
+    "url": "https://github.com/ouncebrew/ounce-hbloader/blob/95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71/README.md",
+    "sha256": "74f839c520c895511947d96eddc4198ef8c2245928a8b9b67f5f9e5c5ee0e24d"
+  },
+  {
+    "id": "HLMAIN",
+    "label": "NRO launch cycle and cleanup",
+    "repository": "ounce-hbloader",
+    "path": "switch2/clean_main.cpp",
+    "commit": "95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71",
+    "url": "https://github.com/ouncebrew/ounce-hbloader/blob/95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71/switch2/clean_main.cpp",
+    "sha256": "0ea9fdc9a63c27683d34d837dca2fc8ccabb1527fab6f5b46d2bafc447d7c6b2"
+  },
+  {
+    "id": "HLLEAK",
+    "label": "Loader resource snapshots",
+    "repository": "ounce-hbloader",
+    "path": "switch2/leak_check.c",
+    "commit": "95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71",
+    "url": "https://github.com/ouncebrew/ounce-hbloader/blob/95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71/switch2/leak_check.c",
+    "sha256": "f857f5f24e27563fee6097c4acf02f2d436d7f1a7e515e97c680dcb26bfcd1e1"
+  },
+  {
+    "id": "HLLICENSE",
+    "label": "Loader license",
+    "repository": "ounce-hbloader",
+    "path": "LICENSE.md",
+    "commit": "95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71",
+    "url": "https://github.com/ouncebrew/ounce-hbloader/blob/95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71/LICENSE.md",
+    "sha256": "db88a9c4d4d3148cbe397ca0acb7886e7aebcc8b984d4ce3b949e9caabdc7223"
+  },
+  {
+    "id": "HMREADME",
+    "label": "Switch 2 menu usage and rendering",
+    "repository": "ounce-hbmenu",
+    "path": "switch2/README.md",
+    "commit": "d7e10c028b53da17867615ee0a3c453b9cf9464a",
+    "url": "https://github.com/ouncebrew/ounce-hbmenu/blob/d7e10c028b53da17867615ee0a3c453b9cf9464a/switch2/README.md",
+    "sha256": "362aaa390e6d019e8cb71bd390c2542ae5bd4ae753c5285f4791f35cd4dc62d0"
+  },
+  {
+    "id": "HMRENDER",
+    "label": "Menu render adapter",
+    "repository": "ounce-hbmenu",
+    "path": "switch2/render.c",
+    "commit": "d7e10c028b53da17867615ee0a3c453b9cf9464a",
+    "url": "https://github.com/ouncebrew/ounce-hbmenu/blob/d7e10c028b53da17867615ee0a3c453b9cf9464a/switch2/render.c",
+    "sha256": "726318359c2307a9feb1f63dfb7399cd7ecd47739f3a489a92ddc3ba0262a91c"
+  },
+  {
+    "id": "HMGRAPHICS",
+    "label": "Menu Vulkan renderer",
+    "repository": "ounce-hbmenu",
+    "path": "switch2/graphics_vulkan.c",
+    "commit": "d7e10c028b53da17867615ee0a3c453b9cf9464a",
+    "url": "https://github.com/ouncebrew/ounce-hbmenu/blob/d7e10c028b53da17867615ee0a3c453b9cf9464a/switch2/graphics_vulkan.c",
+    "sha256": "9253c7632f4b71074283a41d9eeacccbfe94a0d89d64027ce8652f50b1f9301c"
+  },
+  {
+    "id": "HMPERF",
+    "label": "Menu performance instrumentation",
+    "repository": "ounce-hbmenu",
+    "path": "switch2/perf.c",
+    "commit": "d7e10c028b53da17867615ee0a3c453b9cf9464a",
+    "url": "https://github.com/ouncebrew/ounce-hbmenu/blob/d7e10c028b53da17867615ee0a3c453b9cf9464a/switch2/perf.c",
+    "sha256": "49faa8ffdaec83d2d7c54ccdcfad0d4f98ac6628b127309a01a018da1b75d124"
+  },
+  {
+    "id": "HMMENU",
+    "label": "Menu launch and platform identification",
+    "repository": "ounce-hbmenu",
+    "path": "nx_main/nx_launch.c",
+    "commit": "d7e10c028b53da17867615ee0a3c453b9cf9464a",
+    "url": "https://github.com/ouncebrew/ounce-hbmenu/blob/d7e10c028b53da17867615ee0a3c453b9cf9464a/nx_main/nx_launch.c",
+    "sha256": "bfd3306f5277df2b9c7e180acc9f6e26a35e20b22f5167d36cee39ee45fea77b"
+  },
+  {
+    "id": "HMLICENSE",
+    "label": "Menu license",
+    "repository": "ounce-hbmenu",
+    "path": "LICENSE.md",
+    "commit": "d7e10c028b53da17867615ee0a3c453b9cf9464a",
+    "url": "https://github.com/ouncebrew/ounce-hbmenu/blob/d7e10c028b53da17867615ee0a3c453b9cf9464a/LICENSE.md",
+    "sha256": "2e71cd947fbfdf7a8d3f8f386c1f7b52d06a1de1ded03c39141e651b9c25d819"
+  },
+  {
+    "id": "OSREADME",
+    "label": "OunceShell project and upstream context",
+    "repository": "ounceshell",
+    "path": "README.md",
+    "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+    "url": "https://github.com/kurumuz/ounceshell/blob/cb4c4ada491b4e0eb17f4d0419661095f96844e6/README.md",
+    "sha256": "55918bc95bc47d4864a0d84e79e08d87fa6f3fe9809012b9f193a859d0029c64"
+  },
+  {
+    "id": "OSMAKE",
+    "label": "OunceShell platform source and dependency build",
+    "repository": "ounceshell",
+    "path": "switch2/Makefile",
+    "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+    "url": "https://github.com/kurumuz/ounceshell/blob/cb4c4ada491b4e0eb17f4d0419661095f96844e6/switch2/Makefile",
+    "sha256": "597053dbd89fe6f6e071dff964025788b5f48202e62debe201e58d5a86f1602f"
+  },
+  {
+    "id": "OSINIT",
+    "label": "OunceShell native initialization",
+    "repository": "ounceshell",
+    "path": "switch2/src/init.c",
+    "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+    "url": "https://github.com/kurumuz/ounceshell/blob/cb4c4ada491b4e0eb17f4d0419661095f96844e6/switch2/src/init.c",
+    "sha256": "e04ca83912e5589cf74b6b272788a1d24c46888c0e2c17ce75596c08b4d3386d"
+  },
+  {
+    "id": "OSRENDER",
+    "label": "SDL rendering compatibility layer",
+    "repository": "ounceshell",
+    "path": "switch2/src/vita2d_sdl.c",
+    "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+    "url": "https://github.com/kurumuz/ounceshell/blob/cb4c4ada491b4e0eb17f4d0419661095f96844e6/switch2/src/vita2d_sdl.c",
+    "sha256": "ba325a31a4dcf7a2151d9c0589fc6dc1901999cacd53f5258fe201e9f73f1aa4"
+  },
+  {
+    "id": "OSAUDIO",
+    "label": "SDL audio compatibility layer",
+    "repository": "ounceshell",
+    "path": "switch2/src/vita_audio_sdl.c",
+    "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+    "url": "https://github.com/kurumuz/ounceshell/blob/cb4c4ada491b4e0eb17f4d0419661095f96844e6/switch2/src/vita_audio_sdl.c",
+    "sha256": "ef2841b46b19a6accefe64bc010161348598bf2f944b62c9bfc89d781522827b"
+  },
+  {
+    "id": "OSNET",
+    "label": "Network compatibility layer",
+    "repository": "ounceshell",
+    "path": "switch2/src/psp2_net.c",
+    "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+    "url": "https://github.com/kurumuz/ounceshell/blob/cb4c4ada491b4e0eb17f4d0419661095f96844e6/switch2/src/psp2_net.c",
+    "sha256": "e450877c22446a286c2ff9d351148e38d2cbad07daa1f72872d4f8e80609d9fa"
+  },
+  {
+    "id": "OSDROPPED",
+    "label": "Deliberately unsupported inherited functions",
+    "repository": "ounceshell",
+    "path": "switch2/src/dropped_features.c",
+    "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+    "url": "https://github.com/kurumuz/ounceshell/blob/cb4c4ada491b4e0eb17f4d0419661095f96844e6/switch2/src/dropped_features.c",
+    "sha256": "4a5caf8863652ce768bad6a902c7f0a7a75b242ccc6133103d434ec93b285493"
+  },
+  {
+    "id": "OSLICENSE",
+    "label": "OunceShell and VitaShell license",
+    "repository": "ounceshell",
+    "path": "LICENSE",
+    "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+    "url": "https://github.com/kurumuz/ounceshell/blob/cb4c4ada491b4e0eb17f4d0419661095f96844e6/LICENSE",
+    "sha256": "cc8d9e517e07489053ef15db5bf78652b30c0490b85fa9d670eb301fe0b10bd5"
+  },
+  {
+    "id": "HBLIST",
+    "label": "Community application and plugin directory",
+    "repository": "hblist",
+    "path": "docs/index.md",
+    "commit": "afb72130793e7e496ee7c021d129594efd0230b3",
+    "url": "https://github.com/ouncebrew/hblist/blob/afb72130793e7e496ee7c021d129594efd0230b3/docs/index.md",
+    "sha256": "9aaf24ac89e1829fa5ae66840ed21c99a543b756e0e602ba0475f6e483043331"
+  },
+  {
+    "id": "KRELEASE",
+    "label": "kaiHEN 20261114c release",
+    "url": "https://github.com/ouncebrew/kaihen/releases/tag/20261114c",
+    "moving_reference": false
+  },
+  {
+    "id": "DRELEASE",
+    "label": "ounce-devkit 20261114 release",
+    "url": "https://github.com/ouncebrew/ounce-devkit/releases/tag/devkit-20261114",
+    "moving_reference": false
+  },
+  {
+    "id": "NS2DOC",
+    "label": "ns2jb SmileBASIC acquisition requirements",
+    "url": "https://gitlab.com/kurumuz/ns2jb/-/blob/main/README.md",
+    "moving_reference": true
+  },
+  {
+    "id": "CIVDOC",
+    "label": "Civilization VII acquisition requirements",
+    "url": "https://github.com/s8n/civ7-fs-kaihen/blob/main/README.md",
+    "moving_reference": true
+  },
+  {
+    "id": "ZINK",
+    "label": "Mesa Zink capabilities documentation",
+    "url": "https://docs.mesa3d.org/drivers/zink.html",
+    "moving_reference": true
+  }
+]

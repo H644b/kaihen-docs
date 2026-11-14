@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import Icon from '../components/Icon.astro';
+import {repositoryUrl} from '../lib/content';
+interface Props {title:string;description:string;current?:string;headings?:{text:string;slug:string;depth:number}[];home?:boolean;}
+const {title,description,current='home',headings=[],home=false}=Astro.props;
+const canonical=new URL(Astro.url.pathname,'https://kaihen.timsfun.com');
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content={description}/>
+  <meta name="theme-color" content="#ffffff"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content={`${title} | kaiHEN Docs`}/>
+  <meta property="og:description" content={description}/>
+  <meta property="og:url" content={canonical}/>
+  <link rel="canonical" href={canonical}/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="Documentation index"/>
+  <title>{home?'kaiHEN Docs — Switch 2 homebrew development':`${title} | kaiHEN Docs`}</title>
+  <script is:inline>try{document.documentElement.dataset.theme=localStorage.getItem('kaihen-docs-theme')||'light'}catch{}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="kaiHEN Docs home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><path d="m11 7-7 7 7 7m6-14 7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>kaiHEN<span class="brand-docs">Docs</span></span></a>
+    <div class="header-center"><button class="search-trigger" type="button" aria-label="Search documentation" aria-haspopup="dialog" aria-controls="search-dialog"><Icon name="search" size={18}/><span>Search documentation</span><kbd>⌘ K</kbd></button></div>
+    <nav class="header-links" aria-label="Main navigation"><a href="/docs/quickstart/">Guides</a><a href="/docs/api-reference/">API reference</a><a href="/docs/mcp/" class="header-mcp" aria-label="MCP integration"><Icon name="plug" size={17}/><span>MCP</span></a><span class="header-divider"></span><button id="theme-toggle" class="icon-button" type="button" aria-label="Switch to dark theme"><span class="theme-moon"><Icon name="moon"/></span><span class="theme-sun"><Icon name="sun"/></span></button><a class="source-link" href={repositoryUrl} aria-label="Source code on GitHub"><Icon name="external" size={16}/><span>Source</span></a></nav>
+  </header>
+  <div class="site-shell">
+    <aside class="sidebar"><Navigation current={current}/><div class="sidebar-foot"><span>Research snapshot</span><strong>November 13, 2026</strong><a href="/docs/sources/">Sources &amp; verification <Icon name="arrow" size={14}/></a></div></aside>
+    <div class="mobile-navigation"><details><summary><Icon name="book" size={18}/><span>Documentation</span><Icon name="chevron" size={16}/></summary><Navigation current={current}/></details></div>
+    <main id="main" class:list={['main-content',{'home-content':home}]} tabindex="-1"><slot/></main>
+    <aside class="page-rail" aria-label="Page contents"><div class="rail-sticky">{headings.length>0&&<><h2>On this page</h2><nav><ul>{headings.filter(h=>h.depth===2).map(h=><li><a href={`#${h.slug}`} data-toc={h.slug}>{h.text.replace(/`/g,'')}</a></li>)}</ul></nav></>}<div class="rail-links"><a href={current==='home'?'/llms.txt':`/docs/${current}.md`}>View Markdown <Icon name="external" size={13}/></a><a href="/docs/mcp/">Connect through MCP <Icon name="plug" size={14}/></a></div></div></aside>
+  </div>
+  <dialog id="search-dialog" aria-labelledby="search-title"><div class="search-top"><Icon name="search"/><label class="sr-only" id="search-title" for="docs-search">Search documentation</label><input id="docs-search" type="search" placeholder="Search a topic, API, or command…" autocomplete="off" spellcheck="false"/><button class="icon-button close-search" aria-label="Close search"><Icon name="close"/></button></div><div class="search-results" id="search-results" aria-live="polite"><p class="search-empty">Search guides, API names, and code examples.</p><div class="search-suggestions"><button data-query="toolchain">Set up the toolchain</button><button data-query="JIT publication">JIT publication</button><button data-query="plugin lifecycle">Plugin lifecycle</button></div></div><div class="search-footer"><span>Search across the development reference</span><kbd>Esc to close</kbd></div></dialog>
+  <div class="copy-status sr-only" role="status" aria-live="polite"></div>
+  <script src="../scripts/site.ts"></script>
+</body>
+</html>

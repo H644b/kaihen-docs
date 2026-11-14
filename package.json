@@ -1,0 +1,30 @@
+{
+  "name": "kaihen-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:content": "node scripts/prepare-content.mjs",
+    "dev": "npm run prepare:content && astro dev --host 127.0.0.1",
+    "build": "npm run prepare:content && astro build",
+    "preview": "wrangler dev --port 8788",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "deploy": "npm run build && wrangler deploy",
+    "check:build": "node scripts/check-build.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "agents": "0.33.0",
+    "astro": "7.4.12",
+    "fflate": "0.8.2",
+    "marked": "18.2.0",
+    "mermaid": "^11.0.0",
+    "shiki": "4.6.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.4.0",
+    "typescript": "^5.9.0",
+    "wrangler": "4.162.0"
+  }
+}

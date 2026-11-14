@@ -1,0 +1,111 @@
+{
+  "researchDate": "2026-11-13",
+  "repositories": [
+    {
+      "name": "hblist",
+      "url": "https://github.com/ouncebrew/hblist",
+      "commit": "afb72130793e7e496ee7c021d129594efd0230b3",
+      "commit_time": "2026-11-13T20:52:29-05:00"
+    },
+    {
+      "name": "kaihen",
+      "url": "https://github.com/ouncebrew/kaihen",
+      "commit": "e897f991524590833b82fbe8d63a3c6775fb8101",
+      "commit_time": "2026-11-14T03:07:42+03:00"
+    },
+    {
+      "name": "libounce",
+      "url": "https://github.com/ouncebrew/libounce",
+      "commit": "9382b1ec48ac5dabdaf52f1f99e0c0aacd02cd2f",
+      "commit_time": "2026-11-13T09:33:25+03:00"
+    },
+    {
+      "name": "ounce-devkit",
+      "url": "https://github.com/ouncebrew/ounce-devkit",
+      "commit": "f3478152dc553a104dd991efca4bde0c6e7cfe3e",
+      "commit_time": "2026-11-14T02:14:47+03:00"
+    },
+    {
+      "name": "ounce-hbloader",
+      "url": "https://github.com/ouncebrew/ounce-hbloader",
+      "commit": "95f0e5dfbbcd28d678d30c99eeb5344feb0f6e71",
+      "commit_time": "2026-11-13T21:03:44+03:00"
+    },
+    {
+      "name": "ounce-hbmenu",
+      "url": "https://github.com/ouncebrew/ounce-hbmenu",
+      "commit": "d7e10c028b53da17867615ee0a3c453b9cf9464a",
+      "commit_time": "2026-11-13T21:00:43+03:00"
+    },
+    {
+      "name": "ounceshell",
+      "url": "https://github.com/kurumuz/ounceshell",
+      "commit": "cb4c4ada491b4e0eb17f4d0419661095f96844e6",
+      "commit_time": "2026-11-14T03:09:13+03:00"
+    },
+    {
+      "name": "ouncevk",
+      "url": "https://github.com/ouncebrew/ouncevk",
+      "commit": "f5afcd27a98d47a35b7091b097ffd7f46b0be3e4",
+      "commit_time": "2026-11-14T02:08:46+03:00"
+    }
+  ],
+  "releases": [
+    {
+      "file": "kaiHEN-20261114c.zip",
+      "release": "20261114c",
+      "published_at": "2026-11-13T23:58:11Z",
+      "bytes": 12325073,
+      "sha256": "63b91e5e7c6f411aad758758e5a1a3cbe1f855b4304d87916afe5319b9dfd967",
+      "expected_sha256": "63b91e5e7c6f411aad758758e5a1a3cbe1f855b4304d87916afe5319b9dfd967",
+      "checksum_matches": true
+    },
+    {
+      "file": "ounce-devkit-20261114.tar.xz",
+      "release": "devkit-20261114",
+      "published_at": "2026-11-13T23:15:00Z",
+      "bytes": 27312228,
+      "sha256": "f24d5773b1ee1c2b19317f57e8ae54a60fcdcefe493a0e495297c241c4912f59",
+      "expected_sha256": "f24d5773b1ee1c2b19317f57e8ae54a60fcdcefe493a0e495297c241c4912f59",
+      "checksum_matches": true
+    }
+  ],
+  "hostTests": {
+    "host": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "compiler": "Apple clang version 21.0.0 (https://github.com/swiftlang/llvm-project.git 82cdc19fa54d566969527b56f587ea8ea30bef51)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: <workspace>",
+    "tests": [
+      {
+        "suite": "hen",
+        "command": "LIBOUNCE=<absolute-libounce-nx> sh hen/test.sh",
+        "exit_code": 1,
+        "log": "hen-default-host-tests.log",
+        "result": "compile_failure"
+      },
+      {
+        "suite": "hen",
+        "command": "CXX='clang++ -Wno-invalid-constexpr' LIBOUNCE=<absolute-libounce-nx> sh hen/test.sh",
+        "exit_code": 133,
+        "log": "hen-host-tests.log",
+        "result": "execution_trap",
+        "cause": "not established"
+      },
+      {
+        "suite": "ro",
+        "command": "LIBOUNCE=<absolute-libounce-nx> sh ro/test.sh",
+        "exit_code": 1,
+        "log": "ro-default-host-tests.log",
+        "result": "compile_failure"
+      },
+      {
+        "suite": "ro",
+        "command": "CXX='clang++ -Wno-invalid-constexpr' LIBOUNCE=<absolute-libounce-nx> sh ro/test.sh",
+        "exit_code": 133,
+        "log": "ro-host-tests.log",
+        "result": "execution_trap",
+        "cause": "not established"
+      }
+    ]
+  },
+  "consoleTested": false
+}
